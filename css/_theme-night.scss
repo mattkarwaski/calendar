@@ -1,0 +1,40 @@
+.theme-night {
+  .cal {
+    color: rgb(179, 179, 179);
+    background: rgba(45, 46, 36, 0.897);
+    border: 2px solid rgb(177, 171, 171);
+
+    .day:nth-of-type(7n + 1) {
+      color: rgb(62, 238, 229);
+    }
+
+    .to.day {
+      color: rgb(0, 0, 0);
+      background: rgb(0, 255, 136);
+    }
+
+    h4 {
+      color: rgb(150, 182, 187);
+    }
+  }
+
+  h1#year {
+    color: white;
+    background-color: rgba(27, 21, 21, 0.795);
+    border: 2px solid #929292;
+    box-shadow: 2px 5px rgb(94, 91, 68);
+  }
+
+  .theme-button {
+    background: linear-gradient(to bottom left, rgb(161, 163, 163), #333);
+    border: 5px solid rgb(50, 205, 63);
+
+    &:hover {
+      background: linear-gradient(to bottom left, rgb(35, 98, 134), #333);
+    }
+  }
+
+  .month.cloneMonth {
+    background-color: rgba(27, 21, 21, 0.795);
+  }
+}
